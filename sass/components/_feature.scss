@@ -1,0 +1,36 @@
+.feature-list {
+    display: flex;
+    justify-content: center;
+ 
+  .item +.item {
+    margin-left: 30px;
+}
+
+  .title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: $title-text-color;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+ }
+
+  .text {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+ }
+
+  .background {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    background: $background-team;
+    border-radius: 4px;
+ }
+}

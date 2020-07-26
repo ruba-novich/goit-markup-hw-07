@@ -1,0 +1,40 @@
+
+.client-list {
+    display: flex;
+    justify-content: center;
+
+  .item +.item {
+    margin-left: 30px;
+ }
+
+  .item {
+    width: 170px;
+    height: 90px;
+ }
+
+  .link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+ }
+
+  .icon{
+    fill: $icon-color;
+ } 
+
+ & .link:hover, & .link:focus {
+    border-color: $accent-color;
+    transition: $transition-fuction;
+ }
+
+ & .link:hover svg, & .link:focus svg {
+    fill: $accent-color;
+    transition: $transition-fuction;
+ }
+}

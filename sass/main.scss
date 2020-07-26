@@ -1,0 +1,33 @@
+
+@import "./utils/variables";
+@import "./utils/nullstyle";
+@import "./components/main-nav";
+@import "./components/logo";
+@import "./components/site-nav";
+@import "./components/auth-nav";
+@import "./components/section";
+@import "./components/container";
+@import "./components/hero";
+@import "./components/feature";
+@import "./components/work";
+@import "./components/team";
+@import "./components/clients";
+@import "./components/footer";
+@import "./components/form";
+@import "./components/button";
+
+
+body {
+    background-color: $background-color;  
+    color: $primery-text-color;
+    font-family: Roboto, sans-serif;
+ }
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+ }
+
+ 
+

@@ -1,0 +1,39 @@
+.logo {
+    color: $primery-logo-color;
+    font-family: $logo-font;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+ 
+ &:hover {
+    color: $accent-color;
+    transition: $transition-fuction;
+ }
+ &-web {
+    color: $secondary-logo-color;
+ }
+}
+
+.container-logo {
+    margin-bottom: 20px;
+ }
+.footer-logo {
+    color: $footer-logo-color;
+    font-family: $logo-font;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+
+    &:hover {
+        color: $accent-color;
+        transition: $transition-fuction;
+    }
+  &-web {
+    color: $secondary-logo-color;
+ }
+}
+ 
+ 
+ 

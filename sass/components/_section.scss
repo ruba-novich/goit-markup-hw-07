@@ -1,0 +1,21 @@
+
+.section {
+    margin-bottom: 95px;
+ 
+ &.pading {
+    padding-bottom: 95px;
+    padding-top: 95px;
+    background: $background-team;
+ }
+&-title {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    color: $title-text-color;
+    font-weight: 700; 
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+ }
+}
+
